@@ -26,12 +26,19 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
     "dev": "react-app-rewired start",
     "start": "serve -s build",
     "build": "react-app-rewired build",
     "eject": "react-scripts eject",
     "test": "react-app-rewired test",
     "heroku-postbuild": "npm run build"
+=======
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+>>>>>>> parent of 9b34689... changed scripts
   },
   "proxy": "http://localhost:8080",
   "browserslist": {
