@@ -16,7 +16,7 @@ import logo from '../src/helpers/logo.svg';
 import Reward from "./Components/Reward";
 
 
-
+const port = process.env.PORT || 8080
 //TO DO
 //add adressname and address link field --> to make adress that links to google maps
 //deploy
