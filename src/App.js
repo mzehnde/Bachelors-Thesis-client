@@ -15,6 +15,8 @@ import NormalLogin from "./Components/NormalLogin";
 import logo from '../src/helpers/logo.svg';
 import Reward from "./Components/Reward";
 
+
+
 //TO DO
 //add adressname and address link field --> to make adress that links to google maps
 //deploy
@@ -23,7 +25,7 @@ import Reward from "./Components/Reward";
 //then DONE
 
 
-
+App.listen(process.env.PORT);
 class App extends Component {
     render() {
         return (
