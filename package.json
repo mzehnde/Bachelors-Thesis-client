@@ -1,6 +1,9 @@
 {
   "name": "prototype-demp",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.8.1"
+  },
   "private": true,
   "dependencies": {
     "@alch/alchemy-web3": "^1.4.4",
