@@ -26,10 +26,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "dev": "react-app-rewired start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --env=jsdom",
+    "heroku-postbuild": "npm run build"
   },
   "proxy": "http://localhost:8080",
   "browserslist": {
