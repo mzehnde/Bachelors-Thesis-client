@@ -22,6 +22,8 @@ import Reward from "./Components/Reward";
 //populate with real rewards and test
 //then DONE
 
+
+
 class App extends Component {
     render() {
         return (
