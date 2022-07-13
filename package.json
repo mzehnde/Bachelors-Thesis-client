@@ -46,7 +46,7 @@
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
   },
-  "proxy": "http://localhost:8080",
+  "proxy": "https://mz-rewards-server2.herokuapp.com/",
   "browserslist": {
     "production": [
       ">0.2%",

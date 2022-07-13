@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-    baseURL: 'http://localhost:8080',
+    baseURL: 'https://mz-rewards-server2.herokuapp.com/',
     headers: { 'Content-Type': 'application/json' }
 });
 
