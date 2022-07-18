@@ -14,6 +14,8 @@ import {
 import NormalLogin from "./Components/NormalLogin";
 import logo from '../src/helpers/logo.svg';
 import Reward from "./Components/Reward";
+import Onboarding from "./Components/Onboarding";
+import ThankYouOnboarding from "./Components/ThankYouOnboarding";
 
 
 //const port = process.env.PORT || 8080
@@ -51,6 +53,8 @@ class App extends Component {
                         <Route exact path='/notvalid' element={< InvalidReward />}></Route>
                         <Route exact path='/thankyou' element={< ThankYou />}></Route>
                         <Route exact path='/reward' element={< Reward />}></Route>
+                        <Route exact path='/onboarding' element={< Onboarding />}></Route>
+                        <Route exact path='/thankyouonboarding' element={< ThankYouOnboarding />}></Route>
                     </Routes>
                 </div>
             </Router>
