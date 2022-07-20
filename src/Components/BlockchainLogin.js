@@ -110,7 +110,7 @@ class BlockchainLogin extends React.Component {
       const requestBody = JSON.stringify({
         ipfsHash: response.data.hash,
       });
-      const response2 = await api.put("/test/metadata/delete", requestBody);
+      //const response2 = await api.put("/test/metadata/delete", requestBody);
       const requestBody2 = JSON.stringify({
         email: this.state.email,
         id: response.data.id,
