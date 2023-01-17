@@ -8,19 +8,7 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import CircularProgress from "@mui/material/CircularProgress";
 
-//TODO:
-//DEPLOY
-//1. Deploy on heroku --> consider: @origin, proxy, db...
-//2. generate QR Codes and populate DB
-//3. Test it
-//4. Populate with real rewards
-//5. Test again
 
-//OTHER THINGS
-//1. add reward descriptions for Mail!!!
-//2. debug db warning
-//3. new gmail account with "APP name"
-//4. scale for phone
 
 const API_URL =
   "https://eth-rinkeby.alchemyapi.io/v2/wR2HADjlUrTjeB-Rm7EKzWlL_6c6io2-";
