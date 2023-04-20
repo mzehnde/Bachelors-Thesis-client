@@ -1,5 +1,5 @@
 # How to use the application 
-The best way to try the prototype out would be via the following link: 
+The best way to try the prototype out is via the following link: 
 >https://mzrewards-client.herokuapp.com/blockchainReward/partnerHonig
 
 If a valid E-mail address is provided, an E-Mail with a reward is sent to said address. If no reward is sent out, no reward was provided beforehand. So, there must be a provided reward such that the prototype works. However, a permanent reward was uploaded such that the application can be tried out.
